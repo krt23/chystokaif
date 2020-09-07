@@ -31,8 +31,8 @@ function App() {
             <div className="app">
                 <ScrollToTop />
                 <Switch>
-                    <Redirect exact from="/" to="/chystokaif_public/" component={Home} />
-                    <Route exact path="/chystokaif_public/" component={Home}/>
+                    <Redirect exact from="/" to="/chystokaif/" component={Home} />
+                    <Route exact path="/chystokaif/" component={Home}/>
                     <Route exact path="/cleaning" component={CleaningPage}/>
                     <Route exact path="/window-cleaning" component={WindowCleaningPage}/>
                     <Route path="/dry-cleaning" component={DryCleaningPage}/>

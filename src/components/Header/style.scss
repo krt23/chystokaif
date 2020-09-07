@@ -7,8 +7,16 @@
 
 .header-list {
   &__item {
-    padding-left: 77px;
+    padding-left: 45px;
     cursor: pointer;
+    text-align: end;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .header-list {
+    &__item {
+      padding-left: 77px;
+    }
   }
 }
 
