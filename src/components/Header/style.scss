@@ -1,0 +1,14 @@
+@import "../../assets/variables.scss";
+
+.header {
+  // height: 133px;
+  background-color: $secondary-color;
+}
+
+.header-list {
+  &__item {
+    padding-left: 77px;
+    cursor: pointer;
+  }
+}
+

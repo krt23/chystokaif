@@ -1,0 +1,37 @@
+@import "../../../assets/variables";
+
+
+.aboutUs {
+  padding-top: 30px;
+  font-family: $main-font;
+
+  .aboutUs-content {
+    h2 {
+      margin: 0;
+      padding-bottom: 38px;
+      color: $caption-color;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 37px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    p {
+      margin: 0;
+      padding-bottom: 60px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .aboutUs {
+    .aboutUs-content {
+      h2 {
+        text-align: left;
+      }
+    }
+  }
+}

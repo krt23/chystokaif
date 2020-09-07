@@ -1,0 +1,152 @@
+@import "../../../assets/variables";
+
+.cleaning {
+  margin-top: 98px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url('../../../assets/img/cleaning.png') no-repeat center;
+  background-size: cover;
+  font-family: $main-font;
+
+  .whatWeDo {
+    margin: 0;
+    padding: 20px 0;
+    text-transform: uppercase;
+  }
+
+  .container {
+    max-width: 1240px;
+  }
+
+  .cleaning-row {
+    padding-top: 40px;
+
+    .cleaning-caption {
+      display: flex;
+      align-items: center;
+      height: 51px;
+      font-size: 28px;
+      line-height: 34px;
+      font-weight: 600;
+      text-transform: uppercase;
+
+      h3 {
+        margin: 0;
+      }
+    }
+
+    .main {
+      background-color: $secondary-color;
+      color: $text-color;
+    }
+
+    .secondary {
+      background-color: $main-color;
+    }
+
+  }
+
+  .cleaning-content {
+    padding-top: 10px;
+
+    h4 {
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    h4, p {
+      font-size: 14px;
+      line-height: 26px;
+    }
+
+    ul, li {
+      font-size: 14px;
+    }
+
+    li {
+      padding-bottom: 15px;
+    }
+  }
+
+  .cleaning-container {
+    min-width: 360px;
+    max-width: 600px;
+    min-height: 271px;
+    padding: 0;
+    background-color: #EEEEEE;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .bigCleaning-container {
+    min-width: 360px;
+    max-width: 600px;
+    min-height: 311px;
+    padding: 0;
+    background: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .icons {
+    text-align: center;
+
+    .icon-time {
+      padding-left: 0;
+      padding-right: 30px;
+    }
+
+    .icon-door {
+      padding-left: 30px;
+    }
+
+    padding: 15px 0 15px 0;
+    font-size: 14px;
+  }
+
+  .prices {
+    margin-left: 15px;
+    margin-right: 10px;
+    padding: 10px 0 20px 0;
+
+    .apartment {
+      p {
+        padding: 0 5px 0 10px;
+        background-color: $secondary-color;
+        color: white;
+        font-size: 14px;
+      }
+    }
+
+    .square {
+      p {
+        padding: 0 5px 0 10px;
+        background-color: #EEEEEE;
+      }
+    }
+
+    .col-6 {
+      padding-left: 0;
+    }
+
+    .col-6, .col-3, .col-2, .col-md-3, .col-xl-2 {
+      padding-right: 0;
+    }
+
+    .uah {
+      color: $main-color;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  .cleaning {
+
+  }
+
+}

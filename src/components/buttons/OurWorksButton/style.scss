@@ -1,0 +1,18 @@
+@import "../../../assets/variables";
+
+.btn-works {
+  width: 220px;
+  height: 40px;
+  border-radius: 0;
+  border: 1px solid #0C323B;
+  font-family: $main-font;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  &:hover {
+    color: white;
+    border: 1px solid white;
+    background-color: #0C323B;
+  }
+}
+

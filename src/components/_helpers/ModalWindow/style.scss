@@ -1,0 +1,75 @@
+@import "../../../assets/variables.scss";
+
+.modalWindow-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+}
+
+.modalWindow-container {
+  width: 800px;
+  height: 500px;
+  background: #FFFFFF;
+  margin: 100px auto;
+}
+
+.modalWindow-content {
+  padding: 20px 30px;
+}
+
+.nav-toggle-new {
+  position: absolute;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: white;
+  border: none;
+  top: 0;
+  right: 0;
+  padding: 10px 35px 16px 0;
+  cursor: pointer;
+}
+
+.nav-toggle-new:active {
+  outline: none;
+}
+
+
+.nav-toggle-new span, .nav-toggle-new span:before, .nav-toggle-new span:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 3px;
+  border-radius: 1px;
+  background: #2e2e2e;
+  cursor: pointer;
+}
+
+.nav-toggle-new.active span {
+  background-color: transparent;
+}
+
+.nav-toggle-new.active span:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.nav-toggle-new.active span:after {
+  top: 10px;
+  -webkit-transform: translateY(-10px) rotate(-45deg);
+  -ms-transform: translateY(-10px) rotate(-45deg);
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+.navicon-new {
+  position: relative;
+  margin-bottom: 20px;
+  button {
+    outline: none;
+  }
+}

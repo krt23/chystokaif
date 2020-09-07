@@ -1,0 +1,84 @@
+@import "../../../assets/variables";
+
+.services {
+  padding-top: 30px;
+  background: url('../../../assets/img/services-bubles.png') no-repeat center;
+  background-size: cover;
+  font-family: $main-font;
+
+  h2 {
+    margin: 0;
+    padding-bottom: 34px;
+    color: $caption-color;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .col-lg-4 {
+    padding: 0 10px;
+    margin-bottom: 15px;
+  }
+
+  .prices {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 480px;
+    padding: 45px 30px 30px 30px;
+
+    &-header {
+      width: 223px;
+      padding: 6px 0;
+      background-color: $secondary-color;
+      color: white;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    &-button {
+      margin-top: auto;
+      align-self: center;
+    }
+  }
+
+  &-dryCleaning {
+    width: 280px;
+    height: 480px;
+    background: url('../../../assets/img/rectangle_1.png') no-repeat center;
+  }
+
+  &-cleaning {
+    width: 280px;
+    height: 480px;
+    background: url('../../../assets/img/rectangle_2.png') no-repeat center;
+  }
+
+  &-windowCleaning {
+    width: 280px;
+    height: 480px;
+    background: url('../../../assets/img/rectangle_3.png') no-repeat center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .services {
+    p {
+      padding-bottom: 40px;
+    }
+    .col-lg-3 {
+      padding: 0 10px;
+    }
+  }
+}

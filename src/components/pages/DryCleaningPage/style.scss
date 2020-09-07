@@ -1,0 +1,171 @@
+@import "../../../assets/variables";
+
+.dryCleaning {
+  margin-top: 98px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url('../../../assets/img/dry-cleaning.png') no-repeat center;
+  background-size: cover;
+  font-family: $main-font;
+
+  .container {
+    max-width: 1240px;
+  }
+
+  .dryCleaning-content {
+    padding-top: 40px;
+
+    h3 {
+      margin: 0;
+    }
+
+    h4 {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+
+    .col-lg-4 {
+      padding: 0;
+    }
+
+    .dryCleaning-caption {
+      display: flex;
+      align-items: center;
+      height: 51px;
+      background: $secondary-color;
+      color: $text-color;
+      line-height: 34px;
+      font-weight: 600;
+      text-transform: uppercase;
+      h3 {
+        font-size: 24px;
+      }
+    }
+
+    .dryCleaning-subcaption {
+      display: flex;
+      align-items: center;
+      height: 51px;
+      background: $main-color;
+      font-size: 16px;
+      line-height: 18px;
+      text-transform: uppercase;
+
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+  }
+
+  .carpet {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 40px 0;
+    width: 807px;
+    height: 91px;
+    background-color: $secondary-color;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+
+    &-price {
+      color: $main-color;
+    }
+  }
+
+  .dryCleaning-container {
+    margin: 0 auto 15px auto;
+    width: 390px;
+    height: 460px;
+    padding: 0;
+    background-color: #EEEEEE;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+
+    .other {
+      padding-top: 15px;
+      span {
+        padding-left: 15px;
+        font-size: 14px;
+        font-weight: 600;
+        color: $main-color;
+      }
+    }
+  }
+  .prices-container {
+    padding: 30px;
+  }
+  .prices-caption {
+    width: 287px;
+    margin: 0 20px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $secondary-color;
+    color: white;
+  }
+
+  .prices {
+    padding-top: 15px;
+
+    .name {
+      padding-left: 20px;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+
+    .cost {
+      font-size: 18px;
+      font-weight: 600;
+      color: $main-color;
+    }
+    div {
+      padding-top: 10px;
+    }
+    li {
+      list-style-type: none;
+    }
+
+  }
+}
+
+@media only screen and (min-width: 576px) and (min-width: 992px) {
+  .dryCleaning {
+    .carpet {
+      font-size: 20px;
+    }
+  }
+}
+@media only screen and (min-width: 600px) {
+  .dryCleaning {
+    .carpet{
+      height: 41px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .dryCleaning {
+    .dryCleaning-content {
+      .dryCleaning-caption {
+        h3 {
+          font-size: 28px;
+        }
+      }
+    }
+    .carpet {
+      font-size: 24px;
+    }
+  }
+}

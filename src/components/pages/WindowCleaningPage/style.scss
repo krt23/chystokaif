@@ -1,0 +1,109 @@
+@import "../../../assets/variables";
+
+.windowCleaning {
+  margin-top: 98px;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  position: relative;
+  background: url('../../../assets/img/window-cleaning.png') no-repeat center;
+  background-size: cover;
+  font-family: $main-font;
+
+  .container {
+    max-width: 1240px;
+  }
+
+  .windowCleaning-content {
+    padding-top: 40px;
+    h4 {
+      padding-left: 20px;
+    }
+
+    .windowCleaning-caption {
+      display: flex;
+      align-items: center;
+      height: 51px;
+      background: $secondary-color;
+      color: $text-color;
+      font-size: 28px;
+      line-height: 34px;
+      font-weight: 600;
+      text-transform: uppercase;
+
+      h3 {
+        margin: 0;
+      }
+    }
+
+    .windowCleaning-subcaption {
+      display: flex;
+      align-items: center;
+      height: 71px;
+      background: $main-color;
+      line-height: 18px;
+      text-transform: uppercase;
+
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    h4, p {
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+  }
+
+  .windowCleaning-container {
+    width: 528px;
+    height: 200px;
+    margin-bottom: 40px;
+    background-color: #EEEEEE;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .windowCleaning-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .prices {
+    padding: 25px 0 25px 30px;
+    font-weight: 500;
+    p:first-child {
+      padding-bottom: 20px;
+    }
+    span {
+      color: $main-color;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) and (max-width: 992px) {
+  .windowCleaning {
+    .windowCleaning-content {
+      .windowCleaning-subcaption {
+        height: 61px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .windowCleaning {
+    .windowCleaning-content {
+      .windowCleaning-subcaption {
+        height: 51px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 430px) {
+  .windowCleaning {
+    .windowCleaning-container {
+      height: 157px;
+    }
+  }
+}
