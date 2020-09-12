@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chystokaif/precache-manifest.66cb9f73521e814c50b6db668f87e5c4.js"
+  "/chystokaif/precache-manifest.2f23c0fdd39a0efc6a4728962a1bbb71.js"
 );
 
 self.addEventListener('message', (event) => {
