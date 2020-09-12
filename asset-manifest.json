@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chystokaif/static/css/main.c0321860.chunk.css",
+    "main.css": "/chystokaif/static/css/main.0d09cf21.chunk.css",
     "main.js": "/chystokaif/static/js/main.66b605b2.chunk.js",
     "main.js.map": "/chystokaif/static/js/main.66b605b2.chunk.js.map",
     "runtime-main.js": "/chystokaif/static/js/runtime-main.ad6a4d8b.js",
@@ -9,10 +9,10 @@
     "static/js/2.405850f0.chunk.js": "/chystokaif/static/js/2.405850f0.chunk.js",
     "static/js/2.405850f0.chunk.js.map": "/chystokaif/static/js/2.405850f0.chunk.js.map",
     "index.html": "/chystokaif/index.html",
-    "precache-manifest.2f23c0fdd39a0efc6a4728962a1bbb71.js": "/chystokaif/precache-manifest.2f23c0fdd39a0efc6a4728962a1bbb71.js",
+    "precache-manifest.35e9d3a50edfff57409b950f8f7db434.js": "/chystokaif/precache-manifest.35e9d3a50edfff57409b950f8f7db434.js",
     "service-worker.js": "/chystokaif/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/chystokaif/static/css/2.11829350.chunk.css.map",
-    "static/css/main.c0321860.chunk.css.map": "/chystokaif/static/css/main.c0321860.chunk.css.map",
+    "static/css/main.0d09cf21.chunk.css.map": "/chystokaif/static/css/main.0d09cf21.chunk.css.map",
     "static/js/2.405850f0.chunk.js.LICENSE.txt": "/chystokaif/static/js/2.405850f0.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/chystokaif/static/media/window-cleaning.da5ac016.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.ad6a4d8b.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.405850f0.chunk.js",
-    "static/css/main.c0321860.chunk.css",
+    "static/css/main.0d09cf21.chunk.css",
     "static/js/main.66b605b2.chunk.js"
   ]
 }
